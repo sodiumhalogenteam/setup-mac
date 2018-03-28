@@ -65,3 +65,12 @@
 
 * [setup dropbox sync settings](https://gist.github.com/chancesmith/44d3aac78ba337b3c784ddec370dfab1)
 * [shortcuts and packages](https://blog.alexmaccaw.com/sublime-text)
+
+## Extras
+
+* install Alfred
+* install aText (connect with SH Dropbox backup/sync => aText is a text expander)
+* install [Karabiner](https://github.com/tekezo/Karabiner-Elements) (remap capslock)
+* add nmap (to help scan networks for devices)
+* add sshfs (connect external drive as a attached file system => ex: RaspberryPi editing)
+* speed up [repeat key rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x) (see below)
