@@ -1,11 +1,11 @@
 # Mac Setup
 
 * apps
-* setup SST3 or VScode
+* setup VScode
 
 ## Apps
 
-* VScode (see setup instructions below)
+* VScode
 * [Hyper](http://hyper.js) or iTerm
 * Transmit
 * Sequel Pro
