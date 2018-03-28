@@ -5,8 +5,8 @@
 
 ## Apps
 
-* Sublime Text 3 or VScode
-* Hyper (http://hyper.js)
+* VScode (see setup instructions below)
+* [Hyper](http://hyper.js) or iTerm
 * Transmit
 * Sequel Pro
 * Node.js
@@ -14,7 +14,7 @@
 * Homebrew
 * 1Password (pull in vault from Dropbox)
 * Composer
-* Valet (park in wip/)
+* Valet (park in wip/ && set extension to `.sh`)
 * Laravel setup
 
 ## Setup iTerm 2 or Hyper
@@ -60,11 +60,6 @@
 * get font: [FiraCode](https://github.com/tonsky/FiraCode)
 * WIP >> get second font: [flottflott](http://www.1001fonts.com/flottflott-font.html)
   * (guide)[https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0] of fonts used && [fix](https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d) for latest version of VScode (See comments in gist)
-
-## Setup Sublime Text 3
-
-* [setup dropbox sync settings](https://gist.github.com/chancesmith/44d3aac78ba337b3c784ddec370dfab1)
-* [shortcuts and packages](https://blog.alexmaccaw.com/sublime-text)
 
 ## Extras
 
