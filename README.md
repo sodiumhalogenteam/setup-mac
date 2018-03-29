@@ -5,6 +5,7 @@
 
 ## Apps
 
+* Dropbox
 * VScode
 * [Hyper](http://hyper.js) or iTerm
 * Transmit
@@ -57,6 +58,7 @@
 ## Setup VScode
 
 * connect to gist to sync settings with team (Currently is Chance's gist)[https://gist.github.com/chancesmith/f44565a26d30815b3aa7fb740b1b713c]
+* you'll need to get a Github key from Chance if you need permissions to be able to update the VScode settings for the whole team
 * get font: [FiraCode](https://github.com/tonsky/FiraCode)
 * WIP >> get second font: [flottflott](http://www.1001fonts.com/flottflott-font.html)
   * (guide)[https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0] of fonts used && [fix](https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d) for latest version of VScode (See comments in gist)
