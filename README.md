@@ -33,6 +33,7 @@
 * `brew cask install iterm2 && brew cask install sequel-pro`
 * better styled git logs: $`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 * [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
+* install (fkill)[https://github.com/sindresorhus/fkill-cli]
 
 ## Homebrew setup
 
