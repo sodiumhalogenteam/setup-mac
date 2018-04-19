@@ -66,7 +66,7 @@
 
 ## Extras
 
-* install Alfred
+* install Alfred (might add sync with Dropbox)
 * install aText (connect with SH Dropbox backup/sync => aText is a text expander)
 * install [Karabiner](https://github.com/tekezo/Karabiner-Elements) (remap capslock)
 * add nmap (to help scan networks for devices)
