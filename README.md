@@ -54,7 +54,8 @@
 
 ## Add global gitignore
 
-* https://gist.github.com/Abizern/708713
+* add `~/.gitignore`: https://gist.github.com/Abizern/708713
+* https://stackoverflow.com/questions/7335420/global-git-ignore
 
 ## Setup VScode
 
