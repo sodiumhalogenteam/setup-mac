@@ -61,6 +61,7 @@
 
 ## Setup VScode
 
+- install settings-sync extension
 - connect to gist to sync settings with team (Currently is Chance's gist)[https://gist.github.com/chancesmith/f44565a26d30815b3aa7fb740b1b713c]
 - you'll need to get a Github key from Chance if you need permissions to be able to update the VScode settings for the whole team
 - get font: [FiraCode](https://github.com/tonsky/FiraCode)
@@ -69,6 +70,7 @@
 
 ## Extras
 
+- sync hyper settings (https://www.npmjs.com/package/hyper-sync-settings)
 - install Alfred (might add sync with Dropbox)
 - install aText (connect with SH Dropbox backup/sync => aText is a text expander)
 - install [Karabiner](https://github.com/tekezo/Karabiner-Elements) ([remap capslock](http://brettterpstra.com/2017/06/15/a-hyper-key-with-karabiner-elements-full-instructions/))
