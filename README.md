@@ -19,8 +19,8 @@
 - [Yarn](https://yarnpkg.com/en/)
 - Homebrew
 - Composer
-- Valet (park in wip/ && set extension to `.sh`)
 - Laravel setup
+- Valet (park in wip/ && set extension to `.sh`)
 
 ## Setup Hyper
 
@@ -30,11 +30,11 @@
 - Open the configuration file: ~/.zshrc
 - Replace .zshrc user config section https://gist.github.com/chancesmith/5183af99f7fdbeadfca394ea3cdd4d11
 - Add in word jumping (ALT + Left Arrow) - https://gist.github.com/waltz/8658549
-- show hidden files $`defaults write com.apple.finder AppleShowAllFiles YES`
+- show hidden files $`defaults write com.apple.finder AppleShowAllFiles YES` or `CMD + Shift + .`
+- [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
 - install vtop - https://www.npmjs.com/package/vtop
 - `brew cask install iterm2 && brew cask install sequel-pro`
 - better styled git logs: $`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
-- [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
 - install (fkill)[https://github.com/sindresorhus/fkill-cli]
 
 ## Homebrew setup
