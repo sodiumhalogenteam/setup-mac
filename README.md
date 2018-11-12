@@ -28,7 +28,7 @@
 - theme `eastwood` in ~/.zshrc
 - with 'Oh My ZSh' (imho: a must have) https://github.com/robbyrussell/oh-my-zsh ...
 - Open the configuration file: ~/.zshrc
-- Replace .zshrc user config section https://gist.github.com/chancesmith/5183af99f7fdbeadfca394ea3cdd4d11
+- sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files
 - Add in word jumping (ALT + Left Arrow) - https://gist.github.com/waltz/8658549
 - show hidden files $`defaults write com.apple.finder AppleShowAllFiles YES` or `CMD + Shift + .`
 - [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
