@@ -77,4 +77,5 @@
 - install [Karabiner](https://github.com/tekezo/Karabiner-Elements) ([remap capslock](http://brettterpstra.com/2017/06/15/a-hyper-key-with-karabiner-elements-full-instructions/))
 - add nmap (to help scan networks for devices)
 - add sshfs (connect external drive as a attached file system => ex: RaspberryPi editing)
+- https://tyke.app
 - speed up [repeat key rate](https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x) (see below)
