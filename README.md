@@ -42,7 +42,7 @@
 
 - install MySQL
   $`brew install mysql && brew services start mysql`
-- install PHP 7.1
+- install PHP 7.1 - [helpful install path if needed](https://medium.com/@romaninsh/install-php-7-2-xdebug-on-macos-high-sierra-with-homebrew-july-2018-d7968fe7e8b8)
   $`brew install php71`
 - install PHP switcher
   $`brew install brew-php-switcher && brew-php-switcher 71`
