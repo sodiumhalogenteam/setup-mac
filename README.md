@@ -28,9 +28,10 @@
 - theme `eastwood` in ~/.zshrc
 - with 'Oh My ZSh' (imho: a must have) https://github.com/robbyrussell/oh-my-zsh ...
 - Open the configuration file: ~/.zshrc
-- sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files
+- - add autocompletion plugin - https://github.com/zsh-users/zsh-autosuggestions
+- - sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files
 - Add in word jumping (ALT + Left Arrow) - https://gist.github.com/waltz/8658549
-- show hidden files $`defaults write com.apple.finder AppleShowAllFiles YES` or `CMD + Shift + .`
+- show hidden files $`defaults write com.apple.finder AppleShowAllFiles YES` or toggle with `CMD + Shift + .`
 - download Z $ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
 - install vtop - https://www.npmjs.com/package/vtop
 - `brew cask install iterm2 && brew cask install sequel-pro`
