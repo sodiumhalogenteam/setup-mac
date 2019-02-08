@@ -38,6 +38,7 @@
 - better styled git logs: $`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 - install (fkill)[https://github.com/sindresorhus/fkill-cli]
 - In your terminal, run : `git config --global http://alias.ac  '!git add -A && git commit -m'` Then just `git ac "commit message"` (might need to add this to .zshrc)
+- add (Git Emoji Commit)[https://github.com/sodiumhalogenteam/git-emoji-commit]
 
 ## Homebrew setup
 
