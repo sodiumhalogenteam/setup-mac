@@ -70,6 +70,13 @@
 - get font: [FiraCode](https://github.com/tonsky/FiraCode)
 - WIP >> get second font: [flottflott](http://www.1001fonts.com/flottflott-font.html)
   - (guide)[https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0] of fonts used && [fix](https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d) for latest version of VScode (See comments in gist)
+- open $`nano ~/.zshrc` and add your preference of 
+
+```
+## adds VScode insider to code alias
+alias code="code-insiders"
+alias c="code-insiders ."
+```
 
 ## Extras
 
