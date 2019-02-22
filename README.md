@@ -8,6 +8,7 @@
 - Google Chrome
 - 1Password
 - Dropbox (selective sync `SH_Colab/projects`, not including: `projects/completed`)
+- Dropzone
 - Slack
 - Adobe Creative Suite
 - aText
