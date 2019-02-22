@@ -8,7 +8,7 @@
 - Google Chrome
 - 1Password
 - Dropbox (selective sync `SH_Colab/projects`, not including: `projects/completed`)
-- Dropzone
+- Dropzone (sh-drop, see 1pass for dropzone entries, add user in AWS/IAM)
 - Slack
 - Adobe Creative Suite
 - aText
