@@ -23,6 +23,44 @@
 - Laravel setup
 - Valet (park in wip/ && set extension to `.sh`)
 
+## quick install
+
+- install HomeBrew
+- then run:
+
+mac apps
+
+```
+brew cask install hyper
+brew cask install visual-studio-code
+brew cask install dropbox
+brew cask install google-chrome
+brew cask install firefox
+brew cask install alfred
+brew cask install trasnmit
+brew cask install 1password
+brew cask install dropzone
+brew cask install sequel-pro
+brew cask install atext
+brew cask install slack
+brew cask install docker
+```
+
+tools
+
+```
+brew install node
+brew install yarn
+brew install docker-compose
+```
+
+fonts
+
+```
+brew tap caskroom/fonts
+brew cask install font-fira-code
+```
+
 ## Setup Hyper
 
 - https://ruigomes.me/blog/perfect-iterm-osx-terminal-installation/
@@ -32,30 +70,30 @@
 - - add autocompletion plugin - https://github.com/zsh-users/zsh-autosuggestions
 - - sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files
 - Add in word jumping (ALT + Left Arrow) - https://gist.github.com/waltz/8658549
-- show hidden files $`defaults write com.apple.finder AppleShowAllFiles YES` or toggle with `CMD + Shift + .`
-- download Z $ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
+- show hidden files \$`defaults write com.apple.finder AppleShowAllFiles YES` or toggle with `CMD + Shift + .`
+- download Z \$ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
 - install vtop - https://www.npmjs.com/package/vtop
 - `brew cask install iterm2 && brew cask install sequel-pro`
-- better styled git logs: $`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+- better styled git logs: \$`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 - install (fkill)[https://github.com/sindresorhus/fkill-cli]
-- In your terminal, run : `git config --global http://alias.ac  '!git add -A && git commit -m'` Then just `git ac "commit message"` (might need to add this to .zshrc)
+- In your terminal, run : `git config --global http://alias.ac '!git add -A && git commit -m'` Then just `git ac "commit message"` (might need to add this to .zshrc)
 - add (Git Emoji Commit)[https://github.com/sodiumhalogenteam/git-emoji-commit]
 
 ## Homebrew setup
 
 - install MySQL
-  $`brew install mysql && brew services start mysql`
+  \$`brew install mysql && brew services start mysql`
 - install PHP 7.1 - [helpful install path if needed](https://medium.com/@romaninsh/install-php-7-2-xdebug-on-macos-high-sierra-with-homebrew-july-2018-d7968fe7e8b8)
-  $`brew install php71`
+  \$`brew install php71`
 - install PHP switcher
-  $`brew install brew-php-switcher && brew-php-switcher 71`
+  \$`brew install brew-php-switcher && brew-php-switcher 71`
 - restart iTerm
 
 ## Git prevent passphrase for SSH keys
 
 - try this (answer two): https://stackoverflow.com/questions/7773181/git-keeps-prompting-me-for-password
-- $`eval $(ssh-agent)`
-- $`ssh-add`
+- \$`eval $(ssh-agent)`
+- \$`ssh-add`
   [resource for ^^^](http://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase)
 
 ## Add global gitignore
@@ -71,7 +109,7 @@
 - get font: [FiraCode](https://github.com/tonsky/FiraCode)
 - WIP >> get second font: [flottflott](http://www.1001fonts.com/flottflott-font.html)
   - (guide)[https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0] of fonts used && [fix](https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d) for latest version of VScode (See comments in gist)
-- open $`nano ~/.zshrc` and add your preference of 
+- open \$`nano ~/.zshrc` and add your preference of
 
 ```
 ## adds VScode insider to code alias
