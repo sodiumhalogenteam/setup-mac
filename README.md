@@ -36,7 +36,7 @@ brew cask install visual-studio-code
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install firefox
-brew cask install alfred
+brew cask install alfred`
 brew cask install trasnmit
 brew cask install 1password
 brew cask install dropzone
