@@ -22,6 +22,7 @@ brew cask install google-chrome
 brew cask install hyper
 brew cask install sequel-pro
 brew cask install slack
+brew install thefuck
 brew cask install trasnmit
 brew cask install visual-studio-code
 ```
