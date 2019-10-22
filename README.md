@@ -3,26 +3,6 @@
 - apps
 - setup VScode
 
-## Apps list
-
-- Google Chrome
-- 1Password
-- Dropbox (selective sync `SH_Colab/projects`, not including: `projects/completed`)
-- Dropzone (sh-drop, see 1pass for dropzone entries, add user in AWS/IAM)
-- Slack
-- Adobe Creative Suite
-- aText
-- VScode (insiders)
-- [Hyper](http://hyper.js) or iTerm
-- Transmit
-- Sequel Pro
-- Node.js
-- [Yarn](https://yarnpkg.com/en/)
-- Homebrew
-- Composer
-- Laravel setup
-- Valet (park in wip/ && set extension to `.sh`)
-
 ## quick install
 
 - install HomeBrew
@@ -30,36 +10,44 @@
 
 mac apps
 
-```
-brew cask install hyper
-brew cask install visual-studio-code
-brew cask install dropbox
-brew cask install google-chrome
-brew cask install firefox
-brew cask install alfred`
-brew cask install trasnmit
+```shell
 brew cask install 1password
-brew cask install dropzone
-brew cask install sequel-pro
+brew cask install alfred
 brew cask install atext
-brew cask install slack
 brew cask install docker
+brew cask install dropbox
+brew cask install dropzone
+brew cask install firefox
+brew cask install google-chrome
+brew cask install hyper
+brew cask install sequel-pro
+brew cask install slack
+brew cask install trasnmit
+brew cask install visual-studio-code
 ```
 
 tools
 
-```
+```shell
+brew install docker-compose
 brew install node
 brew install yarn
-brew install docker-compose
+brew install zsh
 ```
 
 fonts
 
-```
+```shell
 brew tap caskroom/fonts
 brew cask install font-fira-code
 ```
+
+## Other Apps list
+
+- Adobe Creative Suite
+- Composer
+- Laravel setup
+- Valet (park in wip/ && set extension to `.sh`)
 
 ## Setup Hyper
 
@@ -73,13 +61,12 @@ brew cask install font-fira-code
 - show hidden files \$`defaults write com.apple.finder AppleShowAllFiles YES` or toggle with `CMD + Shift + .`
 - download Z \$ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [setup Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
 - install vtop - https://www.npmjs.com/package/vtop
-- `brew cask install iterm2 && brew cask install sequel-pro`
 - better styled git logs: \$`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 - install (fkill)[https://github.com/sindresorhus/fkill-cli]
 - In your terminal, run : `git config --global http://alias.ac '!git add -A && git commit -m'` Then just `git ac "commit message"` (might need to add this to .zshrc)
 - add (Git Emoji Commit)[https://github.com/sodiumhalogenteam/git-emoji-commit]
 
-## Homebrew setup
+## Homebrew PHP setup
 
 - install MySQL
   \$`brew install mysql && brew services start mysql`
@@ -117,12 +104,14 @@ alias code="code-insiders"
 alias c="code-insiders ."
 ```
 
-## Extras
+## Extras Details
 
+- Dropbox (selective sync `SH_Active`)
+- Dropzone (`sh-drop`, see 1pass for dropzone entries, add user in AWS/IAM)
 - sync hyper settings (https://www.npmjs.com/package/hyper-sync-settings)
 - install Alfred (might add sync with Dropbox)
 - install aText (connect with SH Dropbox backup/sync => aText is a text expander)
-- install [Karabiner](https://github.com/tekezo/Karabiner-Elements) ([remap capslock](http://brettterpstra.com/2017/06/15/a-hyper-key-with-karabiner-elements-full-instructions/))
+- install [Karabiner](https://github.com/tekezo/Karabiner-Elements) - [download](https://pqrs.org/osx/karabiner/) ([remap capslock](http://brettterpstra.com/2017/06/15/a-hyper-key-with-karabiner-elements-full-instructions/))
 - add nmap (to help scan networks for devices)
 - add sshfs (connect external drive as a attached file system => ex: RaspberryPi editing)
 - https://tyke.app
