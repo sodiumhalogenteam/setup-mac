@@ -38,7 +38,7 @@ brew install zsh
 fonts
 
 ```shell
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 ```
 
