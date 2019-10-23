@@ -24,6 +24,7 @@ brew cask install dropbox
 brew cask install dropzone
 brew cask install firefox
 brew cask install google-chrome
+brew cask install handbrake
 brew cask install hyper
 brew cask install sequel-pro
 brew cask install slack
@@ -61,6 +62,29 @@ brew cask install font-fira-code
 - add `~/.gitignore`: https://gist.github.com/Abizern/708713
 - https://stackoverflow.com/questions/7335420/global-git-ignore
 
+## Setup Handbrake
+
+- get the `./setup-mac/Handbrake-screencast-preset.json` and add to Handbrake
+
+## Setup Dropzone
+
+- go into 1pass to see your settings for your folder `wm` and `wm/non-keep/`
+- if you are new to SH, we need to add you to 1pass and AWS folder + settings
+
+## Setup Alfred
+
+- add the screencast workflow in this repo: `./setup-mac/Handbrake Screencast.alfredworkflow`
+
+## Setup VScode
+
+- install settings-sync extension
+- connect to gist to sync settings with team (Currently is Chance's gist)[https://gist.github.com/chancesmith/f44565a26d30815b3aa7fb740b1b713c]
+- you'll need to get a Github key from Chance if you need permissions to be able to update the VScode settings for the whole team
+- get font: [FiraCode](https://github.com/tonsky/FiraCode) (see **quick setup** above)
+- WIP >> get second font: [flottflott](http://www.1001fonts.com/flottflott-font.html)
+  - (guide)[https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0] of fonts used && [fix](https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d) for latest version of VScode (See comments in gist)
+- open \$`nano ~/.zshrc` and add your preference of
+
 ## Homebrew PHP setup
 
 - install MySQL
@@ -78,21 +102,13 @@ brew cask install font-fira-code
 - \$`ssh-add`
   [resource for ^^^](http://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase)
 
-## Setup VScode
-
-- install settings-sync extension
-- connect to gist to sync settings with team (Currently is Chance's gist)[https://gist.github.com/chancesmith/f44565a26d30815b3aa7fb740b1b713c]
-- you'll need to get a Github key from Chance if you need permissions to be able to update the VScode settings for the whole team
-- get font: [FiraCode](https://github.com/tonsky/FiraCode) (see **quick setup** above)
-- WIP >> get second font: [flottflott](http://www.1001fonts.com/flottflott-font.html)
-  - (guide)[https://medium.com/@zamamohammed/multiple-fonts-alternative-to-operator-mono-in-vscode-7745b52120a0] of fonts used && [fix](https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d) for latest version of VScode (See comments in gist)
-- open \$`nano ~/.zshrc` and add your preference of
-
 ```
 ## adds VScode to code alias
 alias c="code ."
 ```
+
 or (if vscode beta)
+
 ```
 ## adds VScode insider to code alias
 alias code="code-insiders"
