@@ -5,6 +5,7 @@
 
 ## quick install
 
+- install Xcode
 - install HomeBrew
 - then run:
 
@@ -52,6 +53,7 @@ brew cask install font-fira-code
 
 ## Setup Hyper
 
+- set git global user: `git config --global user.name "John Doe" && git config --global user.email johndoe@example.com`
 - install Oh-My-ZSH: ([see step 4 in this post](git@github.com:sodiumhalogenteam/setup-mac.git) or see [oh-my-zsh docs](https://github.com/robbyrussell/oh-my-zsh))
 - change ZSH_THEME to `eastwood` in ~/.zshrc
 - Open the configuration file: ~/.zshrc
