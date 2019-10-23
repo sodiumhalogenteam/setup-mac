@@ -12,6 +12,10 @@
 mac apps
 
 ```shell
+brew install docker-compose
+brew install node
+brew install yarn
+brew install zsh
 brew cask install 1password
 brew cask install alfred
 brew cask install atext
@@ -26,20 +30,6 @@ brew cask install slack
 brew install thefuck
 brew cask install trasnmit
 brew cask install visual-studio-code
-```
-
-tools
-
-```shell
-brew install docker-compose
-brew install node
-brew install yarn
-brew install zsh
-```
-
-fonts
-
-```shell
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 ```
