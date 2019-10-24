@@ -106,18 +106,13 @@ This needs an update - Chance Smith 10/24/2019
 - \$`ssh-add`
   [resource for ^^^](http://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase)
 
-```
-## adds VScode to code alias
-alias c="code ."
-```
+## Add to zshrc
+
+`echo -e "\n source ~/.zshrc-import\n\n ## adds VScode to code alias\n alias c=\"code .\"\n" >> ~/.zshrc`
 
 or (if vscode beta)
 
-```
-## adds VScode insider to code alias
-alias code="code-insiders"
-alias c="code-insiders ."
-```
+`echo -e "\n source ~/.zshrc-import\n\n ## adds VScode insider to code alias\n alias code=\"code-insiders\" alias c=\"code-insiders .\"\n" >> ~/.zshrc`
 
 ## Extras Details
 
