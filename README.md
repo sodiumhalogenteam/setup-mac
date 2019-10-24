@@ -74,6 +74,7 @@ brew cask install font-fira-code
 ## Setup Alfred
 
 - add the screencast workflow in this repo: `./setup-mac/Handbrake Screencast.alfredworkflow`
+- setup hyper as default terminal: in terminal \$`hyper i hyperalfred` then add script in Alfred ([see installation instructions](https://github.com/gjuchault/hyperalfred)).
 
 ## Setup VScode
 
