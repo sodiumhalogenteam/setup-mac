@@ -50,19 +50,18 @@ brew cask install font-fira-code
 - install Oh-My-ZSH: ([see step 4 in this post](git@github.com:sodiumhalogenteam/setup-mac.git) or see [oh-my-zsh docs](https://github.com/robbyrussell/oh-my-zsh))
 - change ZSH_THEME to `eastwood` in ~/.zshrc
 - Open the configuration file: ~/.zshrc
-- - sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files
+- - sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files (see instructions in the )
 - - (optional) add autocompletion plugin - https://github.com/zsh-users/zsh-autosuggestions
-- download Z for faster folder jumping based on your terminal history: \$ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [read this to setup Z in .zshrc](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders)
 - better styled git logs: \$`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 - install the following: `npm install --global vtop fkill git-emoji-commit`
 - - install vtop - https://www.npmjs.com/package/vtop
 - - install (fkill)[https://github.com/sindresorhus/fkill-cli]
 - - add (Git Emoji Commit)[https://github.com/sodiumhalogenteam/git-emoji-commit]
+    <!-- - download Z for faster folder jumping based on your terminal history: \$ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [read this to setup Z in .zshrc](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders) -->
 
 ## Add global gitignore
 
 - add `~/.gitignore`: https://gist.github.com/Abizern/708713
-- https://stackoverflow.com/questions/7335420/global-git-ignore
 
 ## Setup Handbrake
 
@@ -89,6 +88,8 @@ brew cask install font-fira-code
 - open \$`nano ~/.zshrc` and add your preference of
 
 ## Homebrew PHP setup
+
+This needs an update - Chance Smith 10/24/2019
 
 - install MySQL
   \$`brew install mysql && brew services start mysql`
