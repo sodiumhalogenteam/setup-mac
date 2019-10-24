@@ -16,6 +16,8 @@ brew install docker-compose
 brew install node
 brew install yarn
 brew install zsh
+brew install hub
+brew install z
 brew cask install 1password
 brew cask install alfred
 brew cask install atext
