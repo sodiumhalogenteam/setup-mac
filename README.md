@@ -62,6 +62,7 @@ brew cask install font-fira-code
 ## Add global gitignore
 
 - add `~/.gitignore`: https://gist.github.com/Abizern/708713
+- then set gitignore file as global `git config --global core.excludesfile ~/.gitignore`
 
 ## Setup Handbrake
 
