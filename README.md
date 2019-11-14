@@ -53,10 +53,11 @@ brew cask install font-fira-code
 - - sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files (see instructions in the )
 - - (optional) add autocompletion plugin - https://github.com/zsh-users/zsh-autosuggestions
 - better styled git logs: \$`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
-- install the following: `npm install --global vtop fkill git-emoji-commit`
+- install the following: `npm install --global vtop fkill git-emoji-commit watch-http-server`
 - - install vtop - https://www.npmjs.com/package/vtop
 - - install (fkill)[https://github.com/sindresorhus/fkill-cli]
 - - add (Git Emoji Commit)[https://github.com/sodiumhalogenteam/git-emoji-commit]
+- - add watch-http-server: https://www.npmjs.com/package/watch-http-server
     <!-- - download Z for faster folder jumping based on your terminal history: \$ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [read this to setup Z in .zshrc](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders) -->
 
 ## Add global gitignore
