@@ -38,6 +38,8 @@ brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 ```
 
+- add new ssh key: `ssh-keygen`
+
 ## Other Apps list
 
 - Adobe Creative Suite
