@@ -21,6 +21,7 @@ brew install z
 brew cask install 1password
 brew cask install alfred
 brew cask install atext
+brew cask install bettertouchtool
 brew cask install clipy
 brew cask install docker
 brew cask install dropbox
