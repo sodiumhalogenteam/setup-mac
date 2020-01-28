@@ -46,7 +46,7 @@ brew cask install font-fira-code
 - Adobe Creative Suite
 - Composer
 - Laravel setup
-- Valet (park in wip/ && set extension to `.sh`)
+- Valet (park in wip/ && set extension to `.shlocal`)
 
 ## Setup Hyper
 
