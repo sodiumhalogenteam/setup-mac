@@ -26,3 +26,6 @@ build/
 .#*
 *.swp
 *.un~
+
+# NodeJS
+node_modules/
