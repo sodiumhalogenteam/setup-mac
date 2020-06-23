@@ -33,7 +33,7 @@ brew cask install hyper
 brew cask install sequel-pro
 brew cask install slack
 brew install thefuck
-brew cask install trasnmit
+brew cask install transmit
 brew cask install visual-studio-code
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code
