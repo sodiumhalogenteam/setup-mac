@@ -65,6 +65,10 @@ brew cask install font-fira-code
 - - add watch-http-server: https://www.npmjs.com/package/watch-http-server
     <!-- - download Z for faster folder jumping based on your terminal history: \$ `cd ~ && curl -OL https://raw.githubusercontent.com/rupa/z/master/z.sh` then [read this to setup Z in .zshrc](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/#using-z-to-jump-to-frecent-folders) -->
 
+## add GPG key to GitHub
+
+The brew list above adds `gnupg`, which gives your mac access to the `gpg` command. Now, [follow this GitHub guide to creating and adding your GPG key](https://docs.github.com/en/github/authenticating-to-github/associating-an-email-with-your-gpg-key).
+
 ## Add global gitignore
 
 - add `~/.gitignore`: https://github.com/sodiumhalogenteam/setup-mac/blob/master/.gitignore
