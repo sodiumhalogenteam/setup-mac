@@ -67,7 +67,7 @@ brew cask install font-fira-code
 
 ## add GPG key to GitHub
 
-The brew list above adds `gnupg`, which gives your mac access to the `gpg` command. Now, [follow this GitHub guide to creating and adding your GPG key](https://docs.github.com/en/github/authenticating-to-github/associating-an-email-with-your-gpg-key).
+The brew list above adds `gnupg`, which gives your mac access to the `gpg` command. Now, [follow this GitHub guide to creating and adding your GPG key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key).
 
 ## Add global gitignore
 
