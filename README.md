@@ -58,7 +58,7 @@ brew cask install font-fira-code
 - - sync up with SH dot-files - https://github.com/sodiumhalogenteam/sync-dot-files (see instructions in the )
 - - (optional) add autocompletion plugin - https://github.com/zsh-users/zsh-autosuggestions
 - better styled git logs: \$`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
-- install the following: `npm install --global vtop fkill git-emoji-commit watch-http-server fast-cli`
+- install the following: `npm install --global vtop fkill git-emoji-commit watch-http-server fast-cli npm-check-updates`
 - - install vtop - https://www.npmjs.com/package/vtop
 - - install (fkill)[https://github.com/sindresorhus/fkill-cli]
 - - add (Git Emoji Commit)[https://github.com/sodiumhalogenteam/git-emoji-commit]
