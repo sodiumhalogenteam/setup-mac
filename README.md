@@ -19,6 +19,7 @@ brew install zsh
 brew install hub
 brew install z
 brew install gnupg
+brew install fnm
 brew install tree
 brew cask install 1password
 brew cask install alfred
