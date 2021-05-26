@@ -21,6 +21,7 @@ brew install z
 brew install gnupg
 brew install fnm
 brew install tree
+brew install gh
 brew cask install 1password
 brew cask install alfred
 brew cask install atext
