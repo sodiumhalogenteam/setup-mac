@@ -22,21 +22,21 @@ brew install gnupg
 brew install fnm
 brew install tree
 brew install gh
+brew install thefuck
+brew install --cask maccy
+brew install --cask dropshare
 brew cask install 1password
 brew cask install alfred
 brew cask install atext
 brew cask install bettertouchtool
-brew cask install clipy
 brew cask install docker
 brew cask install dropbox
-brew cask install dropzone
 brew cask install firefox
 brew cask install google-chrome
 brew cask install handbrake
 brew cask install hyper
 brew cask install sequel-pro
 brew cask install slack
-brew install thefuck
 brew cask install transmit
 brew cask install visual-studio-code
 brew tap homebrew/cask-fonts
