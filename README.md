@@ -48,9 +48,7 @@ brew cask install font-fira-code
 ## Other Apps list
 
 - Adobe Creative Suite
-- Composer
-- Laravel setup
-- Valet (park in wip/ && set extension to `.shlocal`)
+- [Hidden Bar](https://apps.apple.com/us/app/hidden-bar/id1452453066?mt=12)
 
 ## Setup Hyper
 
